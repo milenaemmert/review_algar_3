@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Seletores CSS</title>
+    <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="css/seletores.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+    <main class="container">
+	    <h1 class="main-title">Seletores CSS</h1>
+
+			<div class="content">
+				<h2 class="content-title">Por tag</h2>
+				<p>
+					Utilizar o nome da própria tag para estilizar no CSS:
+				</p>
+				<p>
+					<span class="text-color__orange">p {<br></span>
+					&nbsp;&nbsp;&nbsp;&nbsp;/* seu estilo vai aqui */<br>
+					<span class="text-color__orange">}<br></span>
+				</p>
+				<p>
+					Utilizar com precaução, pois podemos ter vários parágrafos, e querermos estilos diferentes. 
+				</p>
+				<p>
+					=> Temos também o seletor universal (<span class="text-color__orange">*</span>), que seleciona todos os elementos da página.
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Seletores por ID e por classe</h2>
+				<p>
+					A tag no HTML deve ter o atributo id e/ou class e seu valor:
+				</p>
+				<p>
+					&lt;<span class="text-color__orange">h1 id="tituloPrincipal"</span>&gt;
+				</p>
+				<p>
+					&lt;<span class="text-color__orange">p class="texto"</span>&gt;
+				</p>
+				<p>
+					Para chamar um elemento pelo id no CSS, utilizamos <span class="text-color__orange">#</span> (hashtag). Para chamar uma classe, utilizamos <span class="text-color__orange">.</span> (ponto).
+				</p>
+				<p>
+					<span class="text-color__orange">#tituloPrincipal {<br></span>
+					&nbsp;&nbsp;&nbsp;&nbsp;/* seu estilo vai aqui */<br>
+					<span class="text-color__orange">}<br></span>
+				</p>
+				<p>
+					<span class="text-color__orange">.texto {<br></span>
+					&nbsp;&nbsp;&nbsp;&nbsp;/* seu estilo vai aqui */<br>
+					<span class="text-color__orange">}<br></span>
+				</p>
+			</div>
+
+
+			<div class="container-button">
+				<button class="button"><a href="index.html" class="button-link">Home</a></button>
+				<button class="button"><a href="css.html" class="button-link">Próximo</a></button>
+			</div>
+	</main>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Estrutura HTML</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/estrutura_html.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+	    <h1 class="main-title">Estrutura HTML</h1>
+		
+			<div class="content">
+				<h2 class="content-title">DOCTYPE, html, head e body</h2>
+				<p>
+					=> Doctype informará ao navegador qual tipo de documento ele deve esperar, no caso, do tipo html. 
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">html</span>&gt;&lt;/<span class="text-color__orange">html</span>&gt; engloba as tags &lt;<span class="text-color__orange">head</span>&gt;&lt;/<span class="text-color__orange">head</span>&gt; e &lt;<span class="text-color__orange">body</span>&gt;&lt;/<span class="text-color__orange">body</span>&gt;
+				</p>
+				<p>
+					=> Dentro das tags &lt;<span class="text-color__orange">head</span>&gt;&lt;/<span class="text-color__orange">head</span>&gt; colocamos informações para o navegador, como o &lt;<span class="text-color__orange">title</span>&gt;&lt;/<span class="text-color__orange">title</span>&gt; (título da aba), links para CSS, meta tags.
+				</p>
+				<p>
+					=> E no &lt;<span class="text-color__orange">body</span>&gt;&lt;/<span class="text-color__orange">body</span>&gt; colocamos todo o conteúdo do site.
+				</p>
+				
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Tags básicas</h2>
+				<p>
+					=> &lt;<span class="text-color__orange">h1</span>&gt;&lt;/<span class="text-color__orange">h1</span>&gt; - títulos por ordem de importância (do nível 1 até o 6, sendo o 1 o mais importante)
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">a</span>&gt;&lt;/<span class="text-color__orange">a</span>&gt; - navegação entre páginas web; indicar no atributo <span class="text-color__orange">href</span> a URL para qual o hiperlink aponta; <span class="text-color__orange">target="_blank"</span> abre o link em nova guia.
+				</p>
+				<p>
+					&lt;<span class="text-color__orange">p</span>&gt;&lt;/<span class="text-color__orange">p</span>&gt; - representa um parágrafo
+				</p>
+				<p>
+					&lt;<span class="text-color__orange">div</span>&gt;&lt;/<span class="text-color__orange">div</span>&gt; - tag genérica para agrupar um conteúdo.
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Tags semânticas</h2>
+				<p>
+					Ajuda mecanismos de buscas e facilita a acessibilidade das páginas web devido as suas tags de usos bem definidos.
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">header</span>&gt;&lt;/<span class="text-color__orange">header</span>&gt; - tag de cabeçalho
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">main</span>&gt;&lt;/<span class="text-color__orange">main</span>&gt; - conteúdo mais relevante
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">section</span>&gt;&lt;/<span class="text-color__orange">section</span>&gt; - agrupa conteúdos como uma div, mas é uma tag semântica
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">footer</span>&gt;&lt;/<span class="text-color__orange">footer</span>&gt; - rodapé
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Tags semânticas</h2>
+				<p>
+					=> &lt;<span class="text-color__orange">nav</span>&gt;&lt;/<span class="text-color__orange">nav</span>&gt; - menu de navegação
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">ul</span>&gt;&lt;/<span class="text-color__orange">ul</span>&gt; - agrupa uma lista não ordenada
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">ol</span>&gt;&lt;/<span class="text-color__orange">ol</span>&gt; - agrupa uma lista ordenada
+				</p>
+				<p>
+					=> &lt;<span class="text-color__orange">li</span>&gt;&lt;/<span class="text-color__orange">li</span>&gt; - item da lista, seja ela ordenada ou não 
+				</p>
+			</div>
+			
+			<div class="container-button">
+				<button class="button"><a href="index.html" class="button-link">Home</a></button>
+				<button class="button"><a href="seletores.html" class="button-link">Próximo</a></button>
+			</div>
+	</main>
+</body>
+</html>

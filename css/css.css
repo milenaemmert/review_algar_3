@@ -1,0 +1,36 @@
+.container .content {
+    color: #ededed;
+    width: calc(50% - 32px);
+    height: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.container .content img {
+    margin: 0 auto;
+    width: 300px;
+}
+
+@media screen and (max-width: 936px) {
+    .container .content {
+        height: 420px;
+    }
+
+    .container .content img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .content {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container .content {
+        height: 480px;
+    }
+}

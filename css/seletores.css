@@ -1,0 +1,24 @@
+.container .content {
+    color: #ededed;
+    width: calc(50% - 32px);
+    height: 440px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.container .content a {
+    color: #ededed;
+}
+
+@media screen and (max-width: 768px) {
+    .container .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container .content {
+        height: 480px;
+    }
+}
